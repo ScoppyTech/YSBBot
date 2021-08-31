@@ -1,0 +1,46 @@
+{
+    "token": "TOKEN:here",
+    "bot_info": {
+        "id": []
+    },
+    "updater": [
+        {
+            "use_context": true,
+            "persistence": ["persistence.pickle"],
+            "defaults": {"run_async": true, "parse_mode": "HTML"}
+        }
+    ],
+    
+    "logging": {
+        "basic_config": {
+            "format": "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+        },
+        "level": "logging.INFO"
+    },
+
+    "remote_host": {
+
+    },
+    
+    "echo": {
+        "status": true,
+    	"logging": {
+            "status": false,
+    		"text": {
+                "chat_id": "local['special']['chats']['logs']",
+    			"text": "stringtable['echo']['logging']['text']['text'][1]"
+    		},
+    		"forwarding": {
+                "chat_id": "local['special']['chats']['logs']",
+    			"from_chat_id": "update.effective_chat.id",
+    			"message_id": "update.effective_message.message_id"
+    		}
+    	}
+    },
+    
+    "commands": {
+        "prefix": {"requires_sudo": {"0": ["/", "#", ".", "!"], "1": ["/", "#", ".", "!", ";", ">", "$"], "2": ["/", "#", ".", "!", ";", ">", "$"], "3": ["/", "#", ".", "!", ";", ">", "$", "**"]}}
+    },
+
+    "misc": [{}]
+}

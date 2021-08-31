@@ -1,0 +1,14 @@
+{
+    "general": {
+        "start": "✨Avvia il bot!"
+    },
+    "group": {
+
+    },
+    "private": {
+
+    }, 
+    "requires_sudo": {
+
+    }
+}

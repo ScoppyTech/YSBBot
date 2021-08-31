@@ -1,0 +1,32 @@
+{
+    "domain": [],
+    "bot_info": {
+        "id": []
+    },
+
+    "trusted": [
+
+    ],
+
+    "special": {
+        "chats": {
+            "logs": -1001307993776
+        },
+        "users": {
+            
+        }
+    },
+
+    "echo": {
+
+    },
+
+    "blocked": {
+        "chats": {
+            
+        },
+        "users": {
+            
+        }
+    }
+}
