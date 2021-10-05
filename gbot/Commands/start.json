@@ -4,7 +4,7 @@
 	"requires_sudo": 0,
 	"function": {
 		"reply": {
-			"text": "✨<b>BUONASUORA e benvenuto nel tuo nuovo bot!</b>\nInizia subito a personalizzarlo leggendo <b><a href='https://github.com/stockdroidfans/gianpiertoldium/wiki/Personalizzare-il-tuo-bot-clone'>questa guida</a></b>.\n\n❔<b>Hai bisogno di aiuto?</b> <a href='https://t.me/gianpiertoldium/4'>Accedi al Portale supporto</a>\n\n🧨Graziella 2000 dal team di <b><a href='https://t.me/stockdroidfans'>Stockdroid Fans</a></b> per aver scelto <a href='https://github.com/stockdroidfans/gianpiertoldium'>gianpiertoldium</a>!\n‹/›<b>Codice sorgente</b>: fasm.ga/gianpiertoldiumFOSS",
+			"text": "⚠️<b>Attenzione!</b>\nQuesto bot appartiene a @YoungStockBlogFans e non può essere aggiunto in gruppi esterni, interessato a un bot simile? forka il gianpiertoldium bot (su cui è basato)",
 			"parse_mode": "HTML",
 			"reply_markup": null,
 			"reply_to_message_id": null
